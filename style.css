@@ -124,7 +124,8 @@ a {
     bottom: 0;
     width: 390px;
     background: white;
-    /*background: var(--tg-theme-bg-color);*/
+    color: var(--tg-theme-text-color);
+    background: var(--tg-theme-bg-color);
 }
 
 .navigation {
@@ -137,7 +138,7 @@ a {
 }
 
 .navigation a, .navigation a:hover {
-    color: black;
+    color: var(--tg-theme-text-color);
 }
 
 .navigation__col {
