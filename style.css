@@ -11,15 +11,17 @@
     --font-color-two: #A1824A;
 }
 
+/* HTML TAGS */
+
 body, html {
     margin: 0;
     padding: 0;
 }
 
-/* HTML TAGS */
-
 body {
     font-family: "Plus Jakarta Sans", sans-serif;
+    color: var(--tg-theme-text-color);
+    background: var(--tg-theme-bg-color);
 }
 
 button {
@@ -111,19 +113,26 @@ a {
     background: #F3E5F5;
 }
 
+.list-item__buttom {
+    height: 64px;
+}
+
 /* навигация */
 
-.navigation {
+.background__navigation {
     position: fixed;
-    left: 16px;
     bottom: 0;
+    width: 390px;
+    background: white;
+    /*background: var(--tg-theme-bg-color);*/
+}
 
+.navigation {
     display: flex;
     gap: 80px;
     width: 358px;
     padding: 12px 0 12px 0;
 
-    background-color: white;
     border-top: 1px solid var(--font-color-two);
 }
 
