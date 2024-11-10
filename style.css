@@ -62,7 +62,6 @@ a {
 .mobile-screen {
     align-items: center;
     max-width: 390px;
-    height: 100vh;
     
     /*border: 1px solid black;*/
 }
@@ -95,7 +94,7 @@ a {
 .list-item__information__text__title {
     font-size: 16px;
     font-weight: 700;
-    color: black;
+    color: var(--tg-theme-text-color);
 }
 
 .list-item__information__text__subtitle {
