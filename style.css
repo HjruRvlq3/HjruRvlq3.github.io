@@ -35,29 +35,26 @@ a {
 
 /* COMMON TAGS */
 
-.jc-space-between, .jc-flex-start, .jc-center, .jc-flex-start {
+.d-f, .jc-sb, .jc-fs, .jc-c {
     display: flex;
 }
 
-.jc-space-between {
+.jc-sb {
     justify-content: space-between;
 }
 
-.jc-flex-start {
+.jc-fs {
     justify-content: flex-start; 
 }
 
-.jc-center {
+.jc-c {
     justify-content: center;
-}
-
-.jc-flex-start {
-    justify-content: flex-start;
 }
 
 .col {
     flex-direction: column;
 }
+
 
 .mobile-screen {
     align-items: center;
@@ -75,11 +72,10 @@ a {
 }
 
 .list-item {
-    align-items: center;
-    padding: 0 16px 0 16px;
+    gap: 18px;
+    padding: 16px;
 
     width: 326px;
-    height: 125px;
     
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
@@ -98,18 +94,29 @@ a {
 }
 
 .list-item__information__text__subtitle {
+    font-size: 12px;
     color: var(--font-color-two);
 }
 
 .list-item__information__button {
-    align-items: center;
     gap: 4px;
-
     width: 106px;
     height: 32px;
+}
 
+.list-item__button-style {
+    align-items: center;
     border-radius: 16px;
+    height: 32px;
     background: #F3E5F5;
+}
+
+.list-item__button-style:hover {
+    background: #f6d3fb;
+}
+
+.list-item__collapse-button {
+    gap: 8px;
 }
 
 .list-item__buttom {
