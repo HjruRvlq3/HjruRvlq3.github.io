@@ -21,7 +21,7 @@ body, html {
 body {
     font-family: "Plus Jakarta Sans", sans-serif;
     color: var(--tg-theme-text-color);
-    background: var(--tg-theme-bg-color);
+    background-color: var(--tg-theme-bg-color);
 }
 
 button {
@@ -82,6 +82,7 @@ a {
 }
 
 .list-item__information {
+    color: var(--tg-theme-text-color);
     gap: 16px;
 }
 
@@ -141,6 +142,10 @@ a {
     padding: 12px 0 12px 0;
 
     border-top: 1px solid var(--font-color-two);
+}
+
+.navigation a {
+    text-decoration: none !important;
 }
 
 .navigation a, .navigation a:hover {
