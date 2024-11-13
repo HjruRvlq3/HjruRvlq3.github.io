@@ -8,7 +8,13 @@
 */
 
 :root {
-    --font-color-two: #A1824A;
+    /* colors */
+    --color__purplish: #990099;
+    --color__gray: #6A6A6A;
+    --color__yellow: #A1824A;
+    --color__black: #1C170D;
+    --color__light-pink: #F3E5F5;
+    --color__dark-pink: #E2C0E7;
 }
 
 /* HTML TAGS */
@@ -20,13 +26,12 @@ body, html {
 
 body {
     font-family: "Plus Jakarta Sans", sans-serif;
-    color: var(--tg-theme-text-color);
-    background-color: var(--tg-theme-bg-color) !important;
 }
 
 button {
     border: none;
     cursor: pointer;
+    font-family: "Plus Jakarta Sans", sans-serif !important;
 }
 
 a {
@@ -55,10 +60,6 @@ a {
     flex-direction: column;
 }
 
-.color-two {
-    color: var(--font-color-two);
-}
-
 .mobile-screen {
     align-items: center;
     max-width: 390px;
@@ -72,7 +73,6 @@ a {
     align-items: center;
     display: flex;
     gap: 32px;
-    background-color: var(--tg-theme-bg-color);
 }
 
 .list-item {
@@ -83,11 +83,9 @@ a {
     
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
-    background-color: var(--tg-theme-bg-color);
 }
 
 .list-item__information {
-    color: var(--tg-theme-text-color);
     gap: 16px;
 }
 
@@ -96,28 +94,30 @@ a {
 .list-item__information__text__title {
     font-size: 16px;
     font-weight: 700;
-    color: var(--tg-theme-text-color);
+    color: var(--color__black);
 }
 
 .list-item__information__text__subtitle {
     font-size: 12px;
+    color: var(--color__yellow);
 }
 
 .list-item__information__button {
     gap: 4px;
     width: 106px;
-    height: 32px;
+    color: var(--color__black);
 }
 
 .list-item__button-style {
     align-items: center;
     border-radius: 16px;
     height: 32px;
-    background: #F3E5F5;
+    font-size: 12px;
+    background: var(--color__light-pink);
 }
 
 .list-item__button-style:active {
-    background: #f6d3fb;
+    background: var(--color__dark-pink);
 }
 
 .list-item__collapse-button {
@@ -135,8 +135,7 @@ a {
     bottom: 0;
     width: 390px;
     background: white;
-    color: var(--tg-theme-text-color);
-    background: var(--tg-theme-bg-color);
+    background: white;
 }
 
 .navigation {
@@ -145,17 +144,21 @@ a {
     width: 358px;
     padding: 12px 0 12px 0;
 
-    border-top: 1px solid var(--font-color-two);
+    border-top: 1px solid var(--color__yellow);
 }
 
 .navigation a {
     text-decoration: none !important;
 }
 
-.navigation a, .navigation a:hover {
-    color: var(--tg-theme-text-color);
+.navigation__col, .navigation__col__active {
+    align-items: center;
 }
 
 .navigation__col {
-    align-items: center;
+    color: var(--color__gray);
+}
+
+.navigation__col__active {
+    color: var(--color__purplish);
 }
