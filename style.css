@@ -55,6 +55,9 @@ a {
     flex-direction: column;
 }
 
+.color-two {
+    color: var(--font-color-two);
+}
 
 .mobile-screen {
     align-items: center;
@@ -98,7 +101,6 @@ a {
 
 .list-item__information__text__subtitle {
     font-size: 12px;
-    color: var(--font-color-two);
 }
 
 .list-item__information__button {
@@ -114,7 +116,7 @@ a {
     background: #F3E5F5;
 }
 
-.list-item__button-style:hover {
+.list-item__button-style:active {
     background: #f6d3fb;
 }
 
