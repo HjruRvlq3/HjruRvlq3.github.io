@@ -1,0 +1,33 @@
+:root {
+    /* colors */
+    --color__purplish: #990099;
+    --color__gray: #6A6A6A;
+    --color__yellow: #A1824A;
+    --color__black: #1C170D;
+    --color__light-pink: #F3E5F5;
+    --color__dark-pink: #E2C0E7;
+}
+
+.main-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--color__black);
+    padding: 0 0 16px 10px;
+}
+
+.main-title__highlighting {
+    color: var(--color__purplish);
+}
+
+.main-subtitle {
+    font-size: 12px;
+    font-weight: 570;
+    color: var(--color__gray);
+    padding: 0 0 20px 10px;
+}
+
+.main-title__button {
+    padding: 14px 90px 14px 90px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
