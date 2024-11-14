@@ -42,10 +42,15 @@
     align-items: center;
     height: 32px;
     font-size: 12px;
+    border-radius: 16px;
 }
 
 .list-item__collapse-button {
     gap: 8px;
+}
+
+.list-item__collapse-button a {
+    text-decoration: none;
 }
 
 .list-item__buttom {
