@@ -110,10 +110,6 @@ a {
     text-decoration: none;
 }
 
-.img-block img {
-    width: 358px;
-}
-
 .img-block__title {
     color: var(--color__black) !important;
     font-weight: 700;
@@ -122,7 +118,7 @@ a {
 .card {
     border-radius: 12px !important;
     border: none !important;
-    width: 358px !important;
+    width: 330px !important;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
 }
 

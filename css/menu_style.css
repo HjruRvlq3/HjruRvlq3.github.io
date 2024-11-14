@@ -1,12 +1,4 @@
-:root {
-    /* colors */
-    --color__purplish: #990099;
-    --color__gray: #6A6A6A;
-    --color__yellow: #A1824A;
-    --color__black: #1C170D;
-    --color__light-pink: #F3E5F5;
-    --color__dark-pink: #E2C0E7;
-}
+@import url(style.css);
 
 .list {
     align-items: center;
