@@ -69,7 +69,8 @@ a {
     align-items: center;
     max-width: 390px;
     padding-top: 10px;
-    border: 1px solid black;
+    
+    /*border: 1px solid black;*/
 }
 
 /* кнопки */
