@@ -70,6 +70,7 @@ p {
 
 footer {
     position: fixed;
+    z-index: 9999;
     bottom: 0;
     left: 0;
     width: 390px;
@@ -117,7 +118,7 @@ footer {
 .mobile-screen {
     max-width: 390px;
     padding-top: 10px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 .big {
