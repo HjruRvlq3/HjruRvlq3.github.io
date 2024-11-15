@@ -37,6 +37,7 @@ button {
     font-family: "Plus Jakarta Sans", sans-serif !important;
     border-radius: 16px !important;
     padding: 7px 0 7px 0;
+    background-color: transparent;
 }
 
 input:hover, input:active, input:focus,
@@ -212,6 +213,10 @@ footer {
 
 .tc-white {
     color: white;
+}
+
+.line-link:hover {
+    text-decoration: underline !important;
 }
 
 /* универсальный блок */
