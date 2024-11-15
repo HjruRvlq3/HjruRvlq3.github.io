@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>tg_mini_app</title>
+        <!-- fonts -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <!-- my style -->
+        <link rel="stylesheet" href="style.css">
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+        <!-- my script -->
+        <script src="script.js"></script>
+        <!-- скрипт от tg -->
+        <script src="https://telegram.org/js/telegram-web-app.js"></script>
+        <!-- bootstrap style -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="mobile-screen jc-c ai-c col indent-big">
+            <!-- Поля ввода -->
+            <form action="" class="form-style jc-fs col indent-medium">
+                <div class="form-style__item jc-fs col indent-small">
+                    <p class="tc-black">Название товара</p>
+                    <input class="big input-style" placeholder="Ведите название товара"></input>    
+                </div>
+                <div class="form-style__item jc-fs col indent-small">
+                    <p class="tc-black">Характеристики (необязательно)</p>
+                    <textarea class="big input-style" placeholder="Введите особенности вашего  товара через запятую"></textarea>
+                </div>
+            </form>
+            
+            <!-- Кнопки -->
+            <div class="jc-c col ai-c indent-medium">
+                <button class="big button-style__purplish">Попробовать бесплатно</button>
+                <button class="big button-style__yellow">Попробовать бесплатно</button>
+                <button class="big  button-style__light-pink">Попробовать бесплатно</button>
+
+                <button class="small button-style__purplish">Отмена</button>
+                <button class="small button-style__yellow">Поиск</button>
+                <button class="small button-style__light-pink">Открыть</button>
+            </div>
+
+            <!-- Ссылки в виде кнопок -->
+            <div class="jc-c col ai-c indent-medium">            
+                <a href="#">
+                    <div class="link-button big button-style__purplish jc-c">
+                        <span>Генератор описаний</span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="link-button big button-style__yellow jc-c">
+                        <span>Генератор описаний</span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="link-button big button-style__light-pink jc-c">
+                        <span>Генератор описаний</span>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="link-button small button-style__purplish jc-c">
+                        <span>Отмена</span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="link-button small button-style__yellow jc-c">
+                        <span>Отмена</span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="link-button small button-style__light-pink jc-c">
+                        <span>Отмена</span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Текст на странице -->
+            <div class="jc-c col ai-c indent-medium">
+                <div class="big">
+                    <h1 class="tc-purplish">Профессиональный сервис для продавцов на Wildberries</h1>
+                </div>
+                <h1 class="tc-gray">Самый важный заголовок</h1>
+                <h1 class="tc-black">Самый важный заголовок</h1>
+                <h1 class="tc-yellow">Самый важный заголовок</h1>
+                <h1 class="tc-white">Самый важный заголовок</h1>
+
+                <h2 class="tc-purplish">Заголовок уровня 2</h2>
+                <h2 class="tc-gray">Заголовок уровня 2</h2>
+                <h2 class="tc-yellow">Заголовок уровня 2</h2>
+                <h2 class="tc-black">Заголовок уровня 2</h2>
+                <h2 class="tc-white">Самый важный заголовок</h2>
+            </div>
+
+            <!-- Универсальный блок -->
+            <div class="jc-c col ai-c indent-medium">
+                <div class="box-style box-style__big">
+                    <h1 class="tc-purplish">Самый важный заголовок</h1>
+                </div>
+                <div class="big d-f jc-sb">
+                    <div class="box-style box-style__small">
+                        <h1 class="tc-purplish">Самый важный заголовок</h1>
+                    </div>
+                    <div class="box-style box-style__small">
+                        <h1 class="tc-purplish">Самый важный заголовок</h1>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Маленький блок с картинкой 
+            можно использовать как изображение или как кнопку -->
+            <div class="jc-c col ai-c indent-medium">
+                <a href="#">
+                    <div class="jc-c col">
+                        <img src="content/home_active.svg" alt="Главная" height="24px">
+                        <span class="tc-purplish">Главная</span>
+                    </div>
+                </a>
+                <div class="img-box jc-c">
+                    <img src="content/yr_person.svg" alt="Главная" height="24px">
+                </div>
+            </div>
+
+<!--
+Написать
+уневерсальный блок в который будет помещаться информация/информация+картинка (2 размера на весь экран и на половину)
+список для выбора         
+-->
+            
+        </div>
+        <!-- bootstrap script -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+    </body>
+</html>
